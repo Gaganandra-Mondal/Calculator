@@ -1,0 +1,32 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 170px;
+    border: 2px solid black;
+}
+.input{
+    display: flex;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.buttonsContainer{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-size: larger;
+}
