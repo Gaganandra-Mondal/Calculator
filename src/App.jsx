@@ -6,7 +6,7 @@ import { useState } from "react";
 const App = () => {
   const [display,setDisplay] = useState("");
 
-  const buttonhandler = (btn)=>{
+  const buttonHandler = (btn)=>{
     if(btn === "C"){
       setDisplay("")
     }
@@ -21,7 +21,7 @@ const App = () => {
     <div className={styles.content}>
     <div className={styles.calculator}>
       <Inputs Dplay = {display}/>
-      <Buttons button={buttonhandler}/>
+      <Buttons button={buttonHandler}/>
     </div>
     </div>
   );
